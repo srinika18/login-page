@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+   box-sizing: border-box;
+}
+body{
+    background: url(img/t.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+.container{
+   border: 2px solid rgb(255, 255, 255,.2);
+   width: 350px;
+   background-color: transparent;
+   backdrop-filter: blur(30px);
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    
+}
+.input input{
+    font-size: 20px;
+    
+}
+input{
+    padding:8px;
+    margin: 15px 2px 10px 40px ;
+}
+
+.rember p input{
+    
+    margin-left:200px;
+}
+p{
+    font-size: 20px;
+}
+.container .btn  button{
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;    
+}
+.btn{
+    margin:10px 100px ;
+}
+.signin{
+    padding-left: 70px;
+    margin:4% 0  9% 0;
+}

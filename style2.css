@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+body{
+    background-color: aqua;
+    background: url(img/t.jpg),fixed,no-repeat ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.container{
+    border: 2px solid rgb(255, 255, 255,.2);
+    border-radius: 3px;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+
+}
+h1{
+    text-align: center;
+    margin: 15px;
+}
+.input input{
+    font-size: 20px;
+    padding: 6px 6px ;
+    margin: 10px 20px;
+    border-radius: 5px;
+
+}
+.btn button{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.btn{
+    padding-left: 40%;
+    margin: 20px 0px;
+}
+.login{
+    padding-left: 10%;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
